@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void even(int);   
+
+int main()
+{
+    int A;
+
+    scanf("%d", &A);
+    even(A);
+    return 0;
+}
+
+void even(int A)   
+{
+    if(A%2==0)
+        printf("Even");
+    else
+         printf("Odd");
+}
